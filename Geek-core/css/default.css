@@ -16,7 +16,23 @@ src: url('../fonts/bigjohn.svg') format('svg'),
         url('../fonts/bigjohn.ttf')  format('truetype'),
         url('../fonts/bigjohn.otf') format('otf');
 }
-
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+	color: #000;
+}
+ 
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .search-form .form-control::placeholder {
     color: #b4b4b4;
 }
@@ -250,7 +266,7 @@ h1 {
     float: right;
 }
 .top-nav {
-    background: #327af2;
+    background: #0c4cbb;
     height: 50px;
     padding: 10px;
     transition: all 0.3s;
@@ -645,7 +661,7 @@ span.freeshipping {
     padding: 30px 0;
 }
 
-.products-section h2 {
+.products-section h2,.products-section h1 {
     font-size: 44px;
     line-height: 1;
     font-weight: 900;
@@ -660,7 +676,7 @@ span.freeshipping {
     display: inline-block;
     width: 100%;
 }
-.products-section h2:after {
+.products-section h2:after,.products-section h1:after{
     content: "";
     width: 60px;
     height: 1px;
