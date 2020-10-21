@@ -728,6 +728,10 @@ span.freeshipping {
 .extrapages-shower a.collapsed:after {
     content: "\f107";
 }
+.wcag {
+    text-align: left;
+    margin-top: 10px;
+}
 @media(max-width: 1023px) {
     .navbar-inverse .navbar-nav > li > a {
         font-size: 14px;
@@ -760,6 +764,9 @@ span.freeshipping {
     .searchBox {
         padding: 0;
     }
+	.wcag {
+		text-align: center;
+	}
     .search-form-col {
         clear: both;
     }
